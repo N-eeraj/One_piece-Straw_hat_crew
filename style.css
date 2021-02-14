@@ -48,6 +48,7 @@ button{
 	border: 0;
 	background-color: transparent;
 	transition: 0.25s;
+	font-size: 60%;
 }button:hover{
 	background-color: rgba(0, 0, 0, 0.3);
 	color: white;
