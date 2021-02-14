@@ -1,0 +1,101 @@
+html{height: 100%;}
+
+body{
+	height: 98%;
+	text-align: center;
+	background-image: url('images/background/merry_portrait.png');
+	background-size: cover;
+}
+
+#title{width: 50%;}
+
+#container{
+	width: 90%;
+	height: 80%;
+	margin: 7% auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+table{
+	width: 90%;
+	height: 50%;
+}
+#crew img:hover{transform: scale(1.25);}
+td img{width: 60%;}
+
+
+#profile{
+	width: 95%;
+	height: 45%;
+}
+#nav{
+	height: 20%;
+}
+
+#profile_pic{
+	height: 70%;
+	width: 40%;
+	margin-right: 3%;
+}
+h2{font-size: 12pt;}
+#info{
+	height: 70%;
+	margin-top: 3%;
+	color: white;
+	overflow: auto;
+}
+
+
+@media(min-width:500px)
+{
+	#title{width: 20%;}
+	
+	body{
+		background-image: url(images/background/merry_landscape.png);
+		background-size: cover;
+	}
+	
+	#container{
+		width: 98%;
+		height: 72%;
+		margin: 2% auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	table{
+		width: 25%;
+		height: 92%;
+	}
+	#crew img:hover{transform: scale(1.5);}
+	td img{width: 90%;}
+		
+	#profile{
+		width: 50%;
+		height: 92%;
+	}
+	#nav{
+		height: 15%;
+	}
+
+	#profile_pic{
+		height: 80%;
+	}
+}
+
+
+@media(min-width:800px)
+{
+	h2{
+		font-size: 24pt;
+	}
+	
+	button{
+	font-size: 100%;
+	}
+}
