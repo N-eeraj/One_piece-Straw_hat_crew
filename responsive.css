@@ -40,9 +40,12 @@ td img{width: 60%;}
 	width: 40%;
 	margin-right: 3%;
 }
-span{
+h2{font-size: 12pt;}
+#info{
+	height: 70%;
 	margin-top: 3%;
 	color: white;
+	overflow: auto;
 }
 
 
@@ -79,8 +82,20 @@ span{
 	#nav{
 		height: 15%;
 	}
+
 	#profile_pic{
 		height: 80%;
 	}
+}
+
+
+@media(min-width:800px)
+{
+	h2{
+		font-size: 24pt;
+	}
 	
+	button{
+	font-size: 100%;
+	}
 }
